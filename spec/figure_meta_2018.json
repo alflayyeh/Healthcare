@@ -1,0 +1,199 @@
+{
+  "_schema": {
+    "style": "optional global overrides of DEFAULT_STYLE in render_figures.py (inches / points)",
+    "figures.<n>.title": "figure title text (bold, top-left)",
+    "figures.<n>.general_note": "unlettered first footnote paragraph (abbreviations etc.)",
+    "figures.<n>.source_note": "optional unlettered paragraph with sources/years",
+    "figures.<n>.source_note_position": "'after_general' (default) or 'end'",
+    "figures.<n>.mean_note": "'auto' (default: explanatory note added only when some mean uses <11 countries), false, or custom text",
+    "figures.<n>.footnotes": "list of {marker, text} (marker '' or omitted = unlettered) or plain strings",
+    "figures.<n>.footnote_columns": "1 or 2",
+    "figures.<n>.label_overrides": "{indicator_id: label text; '\\n' forces a line break}",
+    "figures.<n>.label_markers": "{indicator_id: superscript marker appended to the row label}",
+    "figures.<n>.section_overrides": "{section text in indicators.csv: displayed text}",
+    "figures.<n>.section_markers": "{section text: superscript marker}",
+    "figures.<n>.cell_markers": "{indicator_id: {ISO3: marker}} superscript after the cell value (or after the country name if the value is blank)",
+    "figures.<n>.bold_label": "[indicator_id] rows whose label is bold (rows with empty section are bold by default)",
+    "figures.<n>.not_bold_label": "[indicator_id] force regular weight",
+    "figures.<n>.mean_overrides": "{indicator_id: text} replace computed mean (skips mean QC for that row)",
+    "figures.<n>.mean_align": "'left' or 'right'",
+    "figures.<n>.header_label": "default 'Rank (highest to lowest)'",
+    "figures.<n>.style": "per-figure DEFAULT_STYLE overrides, e.g. label_col, cell_col"
+  },
+  "style": {},
+  "figures": {
+    "1": {
+      "title": "Figure 1. Spending",
+      "general_note": "GDP indicates gross domestic product; NA, not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 1 in Supplement 2 for data ordered by country.",
+      "footnotes": [],
+      "footnote_columns": 1,
+      "label_overrides": {
+        "F1_08": "Mean spending on health\nper capita, US $"
+      },
+      "bold_label": [
+        "F1_17"
+      ]
+    },
+    "4": {
+      "title": "Figure 4. Population Health",
+      "general_note": "NA indicates not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 2 in Supplement 2 for data ordered by country.",
+      "footnotes": [
+        {
+          "marker": "a",
+          "text": "Patient self-reported data."
+        }
+      ],
+      "footnote_columns": 1,
+      "cell_markers": {
+        "F4_03": {
+          "SWE": "a",
+          "NLD": "a",
+          "DNK": "a",
+          "CHE": "a"
+        }
+      },
+      "mean_align": "right",
+      "style": {
+        "label_col": 1.3662
+      }
+    },
+    "5": {
+      "title": "Figure 5. Workforce and Structural Capacity",
+      "general_note": "NA indicates not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 3 in Supplement 2 for data ordered by country. Generalist physicians are defined as any practicing physician registered in his or her country as a generalist physician or a specialist in the field of family medicine, pediatrics, geriatrics, or internal medicine and excludes students, interns, and nonpracticing physicians. Remuneration numbers may be an underestimate in some countries (eg, Canada) because they do not account for practice expenses for self-employed physicians. Japan is excluded from remuneration means with the exception of nursing. Definitions of specialist and generalist physicians in regard to remuneration were taken from the Organisation for Economic Co-operation and Development.",
+      "footnotes": [
+        {
+          "marker": "a",
+          "text": "The number for Japan, 124 558, is a combined total of generalists and specialists."
+        },
+        {
+          "marker": "b",
+          "text": "In 2016 constant prices at 2016 US dollar purchasing power parities."
+        }
+      ],
+      "footnote_columns": 2,
+      "cell_markers": {
+        "F5_05": {
+          "JPN": "a"
+        },
+        "F5_06": {
+          "JPN": "a"
+        }
+      },
+      "label_markers": {
+        "F5_08": "b"
+      },
+      "style": {
+        "label_col": 1.1663,
+        "cell_col": 0.4485
+      }
+    },
+    "7": {
+      "title": "Figure 7. Utilization",
+      "general_note": "NA indicates not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 4 in Supplement 2 for data ordered by country.",
+      "footnotes": [],
+      "footnote_columns": 1,
+      "style": {
+        "label_col": 1.2975
+      }
+    },
+    "9": {
+      "title": "Figure 9. Pharmaceuticals",
+      "general_note": "NA indicates not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 5 in Supplement 2 for data ordered by country.",
+      "footnotes": [
+        {
+          "marker": "a",
+          "text": "US discounted prices are listed; nondiscounted prices are $216.00 for Crestor, $372.75 for long-acting insulin, $309.60 for Advair, and $3430.82 for Humira."
+        },
+        {
+          "marker": "b",
+          "text": "A new chemical entity is a compound without any precedent among the regulated and approved drug products."
+        },
+        {
+          "marker": "c",
+          "text": "Volume is most often the proportion of total prescriptions that were for generic brands. Volumes can be expressed in defined daily doses or as a number of packages/boxes or standard units. Value is most often the proportion of total cost (ie, government and patient expenditure) that was for generic brands. Values can be, for instance, the turnover of pharmaceutical companies, the amount paid for pharmaceuticals by third-party payers, or the amount paid by all payers (third-party and consumers). Market value is most often at ex-factory prices, while amounts paid by third-party payers and consumers are in general at retail prices."
+        },
+        {
+          "marker": "d",
+          "text": "Defined daily dose is the assumed mean maintenance dose per day for a drug used for its main indication in adults. Data shown here are actual mean defined daily doses for each country."
+        }
+      ],
+      "footnote_columns": 2,
+      "section_markers": {
+        "Prices, US $ per mo": "a",
+        "Share of generics, % of total": "c"
+      },
+      "label_markers": {
+        "F9_07": "b",
+        "F9_13": "d"
+      },
+      "style": {
+        "label_col": 1.3538
+      }
+    },
+    "10": {
+      "title": "Figure 10. Access and Quality",
+      "general_note": "NA indicates not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 6 in Supplement 2 for data ordered by country.",
+      "footnotes": [
+        {
+          "marker": "a",
+          "text": "Able to get same- or next-day appointment when sick, excluding those who did not need to see a physician or nurse."
+        },
+        {
+          "marker": "b",
+          "text": "Women aged 40 to 49 years in Sweden."
+        },
+        {
+          "marker": "c",
+          "text": "Thirty-day stroke mortality after hospital admission for ischemic stroke."
+        },
+        {
+          "marker": "d",
+          "text": "Limited to a primary diagnosis of diabetes."
+        },
+        {
+          "marker": "e",
+          "text": "Diabetes hospitalizations are limited to persons aged 15 years or older, whereas the denominator (population with diabetes) is both adult and pediatric."
+        },
+        {
+          "marker": "f",
+          "text": "Limited to a primary diagnosis of asthma."
+        },
+        {
+          "marker": "g",
+          "text": "Asthma hospitalizations are limited to persons aged 15 years or older, whereas the denominator (population with asthma) is both adult and pediatric."
+        }
+      ],
+      "footnote_columns": 2,
+      "label_markers": {
+        "F10_01": "a",
+        "F10_08": "b",
+        "F10_09": "c",
+        "F10_13": "d",
+        "F10_14": "e",
+        "F10_15": "f",
+        "F10_16": "g"
+      }
+    },
+    "11": {
+      "title": "Figure 11. Distribution and Equity",
+      "general_note": "NA indicates not applicable. CHE indicates Switzerland; NLD, the Netherlands. See eTable 7 in Supplement 2 for data ordered by country.",
+      "footnotes": [
+        {
+          "marker": "a",
+          "text": "The horizontal inequity index is the percentage probability of a physician visit in the past 12 months by wealth. If the index is greater than 0, then high-income groups access physicians more than low-income groups after adjustment for relative need."
+        },
+        {
+          "marker": "b",
+          "text": "Regarding unmet need, the Commonwealth Fund International Health Policy Survey poses a number of questions to a representative sample from each country. For this indicator, it was analyzed whether a respondent did not consult with or visit a physician because of cost, skipped a medical test, treatment, or follow-up that was recommended by a physician because of cost, or did not fill or collect a prescription for medicine or skipped doses of medicine because of cost. Low income is defined as household income less than 50% of the country median."
+        }
+      ],
+      "footnote_columns": 2,
+      "label_markers": {
+        "F11_01": "a"
+      },
+      "section_markers": {
+        "Unmet need": "b"
+      }
+    }
+  }
+}

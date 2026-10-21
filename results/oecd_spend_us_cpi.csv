@@ -1,0 +1,17 @@
+year,cpi_u_annual_avg,series_id,source_url
+2010,218.056,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2011,224.939,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2012,229.594,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2013,232.957,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2014,236.736,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2015,237.017,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2016,240.007,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2017,245.120,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2018,251.107,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2019,255.657,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2020,258.811,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2021,270.970,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2022,292.655,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2023,304.702,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2024,313.689,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0
+2025,321.943,"CUUR0000SA0 (CPI-U, US city average, all items, 1982-84=100, NSA)",https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0

@@ -1,0 +1,390 @@
+{
+ "_schema": {
+  "style": "optional global overrides of DEFAULT_STYLE in render_figures.py (inches / points)",
+  "figures.<n>.title": "figure title text (bold, top-left)",
+  "figures.<n>.general_note": "unlettered first footnote paragraph (abbreviations etc.)",
+  "figures.<n>.source_note": "optional unlettered paragraph with sources/years",
+  "figures.<n>.source_note_position": "'after_general' (default) or 'end'",
+  "figures.<n>.mean_note": "'auto' (default: explanatory note added only when some mean uses <11 countries), false, or custom text",
+  "figures.<n>.footnotes": "list of {marker, text} (marker '' or omitted = unlettered) or plain strings",
+  "figures.<n>.footnote_columns": "1 or 2",
+  "figures.<n>.label_overrides": "{indicator_id: label text; '\\n' forces a line break}",
+  "figures.<n>.label_markers": "{indicator_id: superscript marker appended to the row label}",
+  "figures.<n>.section_overrides": "{section text in indicators.csv: displayed text}",
+  "figures.<n>.section_markers": "{section text: superscript marker}",
+  "figures.<n>.cell_markers": "{indicator_id: {ISO3: marker}} superscript after the cell value (or after the country name if the value is blank)",
+  "figures.<n>.bold_label": "[indicator_id] rows whose label is bold (rows with empty section are bold by default)",
+  "figures.<n>.not_bold_label": "[indicator_id] force regular weight",
+  "figures.<n>.mean_overrides": "{indicator_id: text} replace computed mean (skips mean QC for that row)",
+  "figures.<n>.mean_align": "'left' or 'right'",
+  "figures.<n>.header_label": "default 'Rank (highest to lowest)'",
+  "figures.<n>.style": "per-figure DEFAULT_STYLE overrides, e.g. label_col, cell_col"
+ },
+ "style": {},
+ "figures": {
+  "1": {
+   "title": "Figure 1. Spending",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "Land area excludes inland waters (World Bank AG.LND.TOTL.K2). The 2018 figure used total surface area, a series that now also includes coastal waters for Canada, France, and Sweden."
+    },
+    {
+     "marker": "b",
+     "text": "Domestic general government health expenditure, including social health insurance (WHO GHED). Mandatory basic insurance premiums in Switzerland and the Netherlands are now classified as compulsory private prepayment and are excluded, so these 2 values are not comparable with 2018."
+    },
+    {
+     "marker": "c",
+     "text": "Current health expenditure per capita in current international dollars (purchasing power parities)."
+    },
+    {
+     "marker": "d",
+     "text": "OECD System of Health Accounts, share of current health expenditure; day care is included in outpatient care and Other is ancillary plus unallocated services. US values are for 2018, the latest year the US reports an inpatient/outpatient split, without the 2018 paper’s adjustment for observation stays. Netherlands has a 2021 series break."
+    },
+    {
+     "marker": "e",
+     "text": "US: insured share of the population, CDC National Health Interview Survey early release 2025; other countries, OECD total public and primary private coverage."
+    }
+   ],
+   "footnote_columns": 2,
+   "label_overrides": {
+    "F1_08": "Mean spending on health\nper capita, US $",
+    "F1_04": "Land area (× 1000 sq km)"
+   },
+   "bold_label": [
+    "F1_17"
+   ],
+   "source_note_position": "end",
+   "label_markers": {
+    "F1_04": "a",
+    "F1_07": "b",
+    "F1_08": "c",
+    "F1_17": "e"
+   },
+   "cell_markers": {},
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2018–2025; most values 2023–2025); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Sources: World Bank World Development Indicators (population, land area); OECD Data Explorer (population ≥65 y, GDP per capita [Productivity database], poverty [Income Distribution Database], health expenditure by function [System of Health Accounts], coverage); WHO Global Health Expenditure Database via World Bank (total, public, and per capita health spending); US coverage, CDC National Health Interview Survey 2025.",
+   "section_markers": {
+    "Health expenditure by function of care as a % of total national health expenditure": "d"
+   }
+  },
+  "4": {
+   "title": "Figure 4. Population Health",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "Patient self-reported data."
+    },
+    {
+     "marker": "b",
+     "text": "Self-reported; the latest measured value for Germany is from 2012."
+    },
+    {
+     "marker": "c",
+     "text": "WHO estimates for 2021 (current revision, which places levels about 2 to 3 years below the estimates published in 2017; includes COVID-19 mortality)."
+    },
+    {
+     "marker": "d",
+     "text": "OECD registry-based rates for all countries, including Canada (the 2018 paper used Global Burden of Disease estimates for Canada and model-based values for several countries). Small numbers make annual rates volatile."
+    },
+    {
+     "marker": "e",
+     "text": "No current source reports neonatal mortality excluding births under 1000 g for these countries (the 2018 values came from a 2012 study of 2004 data); not updated."
+    }
+   ],
+   "footnote_columns": 2,
+   "cell_markers": {
+    "F4_03": {
+     "SWE": "a",
+     "NLD": "a",
+     "DNK": "a",
+     "CHE": "a",
+     "DEU": "b"
+    }
+   },
+   "mean_align": "right",
+   "style": {
+    "label_col": 1.3662
+   },
+   "source_note_position": "end",
+   "label_markers": {
+    "F4_05": "c",
+    "F4_08": "d",
+    "F4_11": "e"
+   },
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2013–2025; most values 2023–2024); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Sources: OECD Data Explorer (Health Statistics: risk factors, life expectancy, maternal and infant mortality, low birth weight); WHO Global Health Observatory (health-adjusted life expectancy).",
+   "mean_overrides": {
+    "F4_11": "NA"
+   }
+  },
+  "5": {
+   "title": "Figure 5. Workforce and Structural Capacity",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right. Primary care physicians are generalist medical practitioners plus general pediatricians as a share of all physicians (OECD); unlike the 2018 functionality-based definition, general internists and geriatricians are counted as specialists because they cannot be separated in OECD or Eurostat data. Remuneration numbers may be an underestimate in some countries (eg, Canada) because they do not account for practice expenses for self-employed physicians.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "Combined generalist and specialist figure for Japan (salaried physicians in general hospitals); Japan is excluded from the generalist and specialist ratios."
+    },
+    {
+     "marker": "b",
+     "text": "Annual remuneration in current-price US dollar purchasing power parities for the latest year, converted to 2025 US dollars with the US Consumer Price Index (CPI-U), as in the 2018 paper. US values are average total compensation (Medscape) and are not from OECD."
+    },
+    {
+     "marker": "c",
+     "text": "In 2025 constant prices at 2025 US dollar purchasing power parities."
+    },
+    {
+     "marker": "d",
+     "text": "Remuneration divided by the average annual wage for the same country and year (both in current-price US dollar purchasing power parities)."
+    },
+    {
+     "marker": "e",
+     "text": "Professionally active nurses; the US does not report practising nurses."
+    },
+    {
+     "marker": "f",
+     "text": "Beds in long-term care institutions only (OECD no longer publishes institutions plus hospitals)."
+    }
+   ],
+   "footnote_columns": 2,
+   "cell_markers": {
+    "F5_05": {
+     "JPN": "a"
+    },
+    "F5_04": {
+     "USA": "e"
+    }
+   },
+   "label_markers": {
+    "F5_05": "b",
+    "F5_06": "b",
+    "F5_07": "b",
+    "F5_08": "c",
+    "F5_09": "d",
+    "F5_10": "d",
+    "F5_11": "d",
+    "F5_16": "f"
+   },
+   "style": {
+    "label_col": 1.1663,
+    "cell_col": 0.4485
+   },
+   "source_note_position": "end",
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2016–2025; most values 2023–2025); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Sources: OECD Data Explorer (Health Statistics: physicians by category, nurses, remuneration of health professionals, medical technology, hospital and long-term care beds; average annual wages); US physician remuneration, Medscape Physician Compensation Report 2026 (2025 earnings); Japan, Ministry of Health, Labour and Welfare Survey on Economic Conditions in Health Care (FY2024); US CPI-U, Bureau of Labor Statistics."
+  },
+  "7": {
+   "title": "Figure 7. Utilization",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "The latest OECD data for the United States are from 2009 to 2010 for discharges, surgical and cardiovascular procedures, and length of stay (the 2018 paper also used 2010). Japan no longer reports surgical procedures or length of stay by diagnosis."
+    },
+    {
+     "marker": "b",
+     "text": "France includes psychiatric hospital stays from 2016 onward; the Netherlands still excludes psychiatric hospitals. Denmark’s discharge and length-of-stay data follow a 2019 registry change."
+    },
+    {
+     "marker": "c",
+     "text": "United Kingdom and Switzerland include hospital examinations only; Australia includes only examinations eligible for public reimbursement."
+    },
+    {
+     "marker": "d",
+     "text": "US hysterectomy and coronary angioplasty are NA because OECD US data cover inpatient cases only (2010) and exclude the large share performed as outpatient procedures; the 2018 paper used HCUP data including outpatient angioplasty."
+    }
+   ],
+   "footnote_columns": 2,
+   "style": {
+    "label_col": 1.2975
+   },
+   "source_note_position": "end",
+   "label_markers": {
+    "F7_01": "a",
+    "F7_02": "b",
+    "F7_05": "c",
+    "F7_09": "d"
+   },
+   "cell_markers": {},
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2009–2025; most values 2022–2024); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Source: OECD Data Explorer (Health Statistics: hospital discharges, diagnostic exams, surgical procedures, average length of stay).",
+   "section_markers": {}
+  },
+  "9": {
+   "title": "Figure 9. Pharmaceuticals",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "Not updated: no public source reports total (retail plus hospital) pharmaceutical spending per capita on a common basis for most of these countries (the 2018 values came from IMS/IFPMA)."
+    },
+    {
+     "marker": "b",
+     "text": "Retail pharmaceuticals and other medical nondurables per capita, current US dollar purchasing power parities."
+    },
+    {
+     "marker": "c",
+     "text": "Not updated: the 2018 counts (Daemmrich, 1982-2003, by originator country) have no current equivalent; EFPIA reports new chemical and biological entities for 2021-2025 only for the United States (140), Japan (33), and Europe as a whole (87)."
+    },
+    {
+     "marker": "d",
+     "text": "Not updated: the Bloomberg/SSR Health 2015 price comparison has not been repeated, and no single-methodology source compares monthly prices for these 4 products (now generic or biosimilar in most countries) across these countries."
+    },
+    {
+     "marker": "e",
+     "text": "Retail pharmaceutical spending by financing scheme. US values are NA because employer and individual private insurance are now reported as compulsory schemes in the US health accounts, so public and private insurance shares are not comparable with 2018."
+    },
+    {
+     "marker": "f",
+     "text": "Community (primary care) sector, defined daily doses per 1000 inhabitants per day; the United States reports prescriptions rather than defined daily doses."
+    },
+    {
+     "marker": "g",
+     "text": "Market basis differs by country as in 2018: reimbursed market (Germany, Netherlands, Denmark, Australia), community pharmacy market (UK, France), total market (Canada, Japan, Switzerland, Sweden)."
+    }
+   ],
+   "footnote_columns": 2,
+   "section_markers": {
+    "Prices, US $ per mo": "d",
+    "Pharmaceutical expenditure by financing type, % of total spending": "e",
+    "Share of generics, % of total": "g"
+   },
+   "label_markers": {
+    "F9_01": "a",
+    "F9_02": "b",
+    "F9_07": "c",
+    "F9_13": "f"
+   },
+   "style": {
+    "label_col": 1.3538
+   },
+   "source_note_position": "end",
+   "cell_markers": {},
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2019–2025; most values 2023–2025); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Sources: OECD Data Explorer (System of Health Accounts: retail pharmaceutical spending and financing; pharmaceutical market: generics); ECDC ESAC-Net and OECD (antibiotic consumption).",
+   "mean_overrides": {
+    "F9_01": "NA",
+    "F9_03": "NA",
+    "F9_04": "NA",
+    "F9_05": "NA",
+    "F9_06": "NA",
+    "F9_07": "NA"
+   }
+  },
+  "10": {
+   "title": "Figure 10. Access and Quality",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "Commonwealth Fund 2023 survey (Japan and Denmark not surveyed), computed from published response distributions on the 2016 base (same- or next-day appointment excluding those who did not need care; waited ≥2 months among those who saw or needed a specialist). Mode shifted toward online interviews in 2023."
+    },
+    {
+     "marker": "b",
+     "text": "Mostly Commonwealth Fund 2020 survey data as published by OECD; Netherlands, national survey."
+    },
+    {
+     "marker": "c",
+     "text": "Not updated: the health-system views question has not been asked in Commonwealth Fund general population surveys since 2016."
+    },
+    {
+     "marker": "d",
+     "text": "Thirty-day in-hospital mortality per 100 admissions (unlinked data, age-sex standardized, ages ≥45 y), ischemic stroke and acute myocardial infarction. The 2018 labels read per 1000; values are per 100."
+    },
+    {
+     "marker": "e",
+     "text": "Not updated: OECD discontinued the foreign-body-left-in indicator."
+    },
+    {
+     "marker": "f",
+     "text": "Admissions with a primary diagnosis, persons aged ≥15 y, age-sex standardized."
+    },
+    {
+     "marker": "g",
+     "text": "Admissions per 100 000 divided by diabetes prevalence (IDF Diabetes Atlas 2024, age-standardized, ages 20-79 y), shown per 100 persons with diabetes."
+    },
+    {
+     "marker": "h",
+     "text": "Not updated: no official cross-national asthma prevalence series is available."
+    }
+   ],
+   "footnote_columns": 2,
+   "label_markers": {
+    "F10_01": "a",
+    "F10_02": "a",
+    "F10_03": "b",
+    "F10_04": "c",
+    "F10_09": "d",
+    "F10_11": "e",
+    "F10_13": "f",
+    "F10_14": "g",
+    "F10_16": "h"
+   },
+   "source_note_position": "end",
+   "cell_markers": {},
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2015–2025; most values 2020–2024); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Sources: Commonwealth Fund International Health Policy Survey 2023 (respondent-level distributions published by the Canadian Institute for Health Information); OECD Data Explorer (Health Care Quality and Outcomes, immunisation, screening); IDF Diabetes Atlas 11th edition (diabetes prevalence).",
+   "mean_overrides": {
+    "F10_04": "NA",
+    "F10_05": "NA",
+    "F10_06": "NA",
+    "F10_11": "NA",
+    "F10_16": "NA"
+   },
+   "label_overrides": {
+    "F10_09": "30-d Stroke mortality per 100\nadmissions",
+    "F10_10": "30-d Mortality per 100 admissions\nwith acute myocardial infarction"
+   }
+  },
+  "11": {
+   "title": "Figure 11. Distribution and Equity",
+   "general_note": "NA indicates not available (no comparable modern observation). CHE indicates Switzerland; NLD, the Netherlands. Countries are ranked from highest to lowest value within each row; NA cells are placed at the right.",
+   "footnotes": [
+    {
+     "marker": "a",
+     "text": "Need-standardized horizontal inequity index ×100 for the probability of a physician visit in the past 12 months, by income (survey data 2014-2016). If greater than 0, high-income groups visit physicians more than low-income groups after adjustment for need."
+    },
+    {
+     "marker": "b",
+     "text": "Share of current health expenditure."
+    },
+    {
+     "marker": "c",
+     "text": "Commonwealth Fund 2023 survey: did not visit a physician, skipped a test, treatment, or follow-up, or did not fill a prescription or skipped doses because of cost in the past year, by self-reported household income below or above the national average. Consultation skipped because of cost: OECD (mostly 2020 Commonwealth Fund data)."
+    },
+    {
+     "marker": "d",
+     "text": "Persons per square kilometer of land; the 2018 label read per square mile but its values were also per square kilometer."
+    },
+    {
+     "marker": "e",
+     "text": "Physicians per 1000 population in OECD predominantly urban vs predominantly rural small regions (TL3); only countries with TL3 physician data are shown (Germany excluded because its regional counts cover ambulatory physicians only)."
+    },
+    {
+     "marker": "f",
+     "text": "Sweden, 2020 survey (income data not collected in Sweden in 2023)."
+    }
+   ],
+   "footnote_columns": 2,
+   "label_markers": {
+    "F11_01": "a",
+    "F11_02": "b",
+    "F11_08": "d",
+    "F11_09": "e"
+   },
+   "section_markers": {
+    "Unmet need": "c"
+   },
+   "source_note_position": "end",
+   "cell_markers": {
+    "F11_05": {
+     "SWE": "f"
+    },
+    "F11_06": {
+     "SWE": "f"
+    }
+   },
+   "source_note": "2026 update. Each value is the most recent comparable observation for that country (observation years 2014–2025; most values 2023–2025); data retrieved October 7, 2026. The year and source of every cell are listed in the accompanying workbook (Master_Data sheet). Sources: OECD, Health for Everyone? (2019) (horizontal inequity); WHO Global Health Expenditure Database via World Bank (out-of-pocket share); OECD System of Health Accounts (out-of-pocket share of household consumption); OECD Health Care Quality and Outcomes (consultation skipped); Commonwealth Fund International Health Policy Survey 2023 (unmet need); World Bank World Development Indicators (rural population, density); OECD Regional Statistics (urban and rural physicians).",
+   "label_overrides": {
+    "F11_08": "Population density per sq km"
+   }
+  }
+ }
+}

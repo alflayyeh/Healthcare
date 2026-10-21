@@ -1,0 +1,496 @@
+indicator_id,test,result,detail
+F1_01,one unit across plotted countries,PASS,millions
+F1_01,"11 countries present, no duplicates",PASS,
+F1_01,every plotted value has source URL + year,PASS,
+F1_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_01,retrieved value found verbatim in saved raw source files,REVIEW,"USA,DEU,SWE,NLD,CHE,DNK,CAN,JPN,AUS"
+F1_02,one unit across plotted countries,PASS,% of population
+F1_02,"11 countries present, no duplicates",PASS,
+F1_02,every plotted value has source URL + year,PASS,
+F1_02,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_02,retrieved value found verbatim in saved raw source files,PASS,
+F1_03,one unit across plotted countries,PASS,"thousand USD, current prices, current PPPs"
+F1_03,"11 countries present, no duplicates",PASS,
+F1_03,every plotted value has source URL + year,PASS,
+F1_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_03,retrieved value found verbatim in saved raw source files,REVIEW,"USA,GBR,SWE,FRA,NLD,CHE,DNK,CAN,JPN,AUS"
+F1_04,one unit across plotted countries,PASS,thousand sq km
+F1_04,"11 countries present, no duplicates",PASS,
+F1_04,every plotted value has source URL + year,PASS,
+F1_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_04,retrieved value found verbatim in saved raw source files,REVIEW,"USA,GBR,DEU,SWE,FRA,CAN,JPN,AUS"
+F1_05,one unit across plotted countries,PASS,% of population
+F1_05,"11 countries present, no duplicates",PASS,
+F1_05,every plotted value has source URL + year,PASS,
+F1_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_05,retrieved value found verbatim in saved raw source files,PASS,
+F1_06,one unit across plotted countries,PASS,% of GDP
+F1_06,"11 countries present, no duplicates",PASS,
+F1_06,every plotted value has source URL + year,PASS,
+F1_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_06,retrieved value found verbatim in saved raw source files,PASS,
+F1_07,one unit across plotted countries,PASS,% of GDP
+F1_07,"11 countries present, no duplicates",PASS,
+F1_07,every plotted value has source URL + year,PASS,
+F1_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_07,retrieved value found verbatim in saved raw source files,PASS,
+F1_08,one unit across plotted countries,PASS,current international $ (PPP) per capita
+F1_08,"11 countries present, no duplicates",PASS,
+F1_08,every plotted value has source URL + year,PASS,
+F1_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_08,retrieved value found verbatim in saved raw source files,PASS,
+F1_09,one unit across plotted countries,PASS,% of current health expenditure
+F1_09,"11 countries present, no duplicates",PASS,
+F1_09,every plotted value has source URL + year,PASS,
+F1_09,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_09,retrieved value found verbatim in saved raw source files,PASS,
+F1_10,one unit across plotted countries,PASS,% of current health expenditure
+F1_10,"11 countries present, no duplicates",PASS,
+F1_10,every plotted value has source URL + year,PASS,
+F1_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_10,retrieved value found verbatim in saved raw source files,PASS,
+F1_11,one unit across plotted countries,PASS,% of current health expenditure
+F1_11,"11 countries present, no duplicates",PASS,
+F1_11,every plotted value has source URL + year,PASS,
+F1_11,magnitude within 1/3x–3x of 2018 value,REVIEW,AUS 2->13.7
+F1_11,retrieved value found verbatim in saved raw source files,PASS,
+F1_12,one unit across plotted countries,PASS,% of current health expenditure
+F1_12,"11 countries present, no duplicates",PASS,
+F1_12,every plotted value has source URL + year,PASS,
+F1_12,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_12,retrieved value found verbatim in saved raw source files,PASS,
+F1_13,one unit across plotted countries,PASS,% of current health expenditure
+F1_13,"11 countries present, no duplicates",PASS,
+F1_13,every plotted value has source URL + year,PASS,
+F1_13,magnitude within 1/3x–3x of 2018 value,REVIEW,FRA 1->5.1
+F1_13,retrieved value found verbatim in saved raw source files,PASS,
+F1_14,one unit across plotted countries,PASS,% of current health expenditure
+F1_14,"11 countries present, no duplicates",PASS,
+F1_14,every plotted value has source URL + year,PASS,
+F1_14,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_14,retrieved value found verbatim in saved raw source files,PASS,
+F1_15,one unit across plotted countries,PASS,% of current health expenditure
+F1_15,"11 countries present, no duplicates",PASS,
+F1_15,every plotted value has source URL + year,PASS,
+F1_15,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_15,retrieved value found verbatim in saved raw source files,PASS,
+F1_16,one unit across plotted countries,PASS,% of current health expenditure
+F1_16,"11 countries present, no duplicates",PASS,
+F1_16,every plotted value has source URL + year,PASS,
+F1_16,magnitude within 1/3x–3x of 2018 value,REVIEW,CHE 1->10.1
+F1_16,retrieved value found verbatim in saved raw source files,PASS,
+F1_17,one unit across plotted countries,PASS,% of population
+F1_17,"11 countries present, no duplicates",PASS,
+F1_17,every plotted value has source URL + year,PASS,
+F1_17,magnitude within 1/3x–3x of 2018 value,PASS,
+F1_17,retrieved value found verbatim in saved raw source files,PASS,
+F4_01,one unit across plotted countries,PASS,% of population 15+
+F4_01,"11 countries present, no duplicates",PASS,
+F4_01,every plotted value has source URL + year,PASS,
+F4_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_01,retrieved value found verbatim in saved raw source files,PASS,
+F4_02,one unit across plotted countries,PASS,litres pure alcohol per capita 15+
+F4_02,"11 countries present, no duplicates",PASS,
+F4_02,every plotted value has source URL + year,PASS,
+F4_02,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_02,retrieved value found verbatim in saved raw source files,PASS,
+F4_03,one unit across plotted countries,PASS,% of population 15+
+F4_03,"11 countries present, no duplicates",PASS,
+F4_03,every plotted value has source URL + year,PASS,
+F4_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_03,retrieved value found verbatim in saved raw source files,PASS,
+F4_04,one unit across plotted countries,PASS,years
+F4_04,"11 countries present, no duplicates",PASS,
+F4_04,every plotted value has source URL + year,PASS,
+F4_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_04,retrieved value found verbatim in saved raw source files,PASS,
+F4_05,one unit across plotted countries,PASS,years
+F4_05,"11 countries present, no duplicates",PASS,
+F4_05,every plotted value has source URL + year,PASS,
+F4_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_05,retrieved value found verbatim in saved raw source files,PASS,
+F4_06,one unit across plotted countries,PASS,years
+F4_06,"11 countries present, no duplicates",PASS,
+F4_06,every plotted value has source URL + year,PASS,
+F4_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_06,retrieved value found verbatim in saved raw source files,PASS,
+F4_07,one unit across plotted countries,PASS,years
+F4_07,"11 countries present, no duplicates",PASS,
+F4_07,every plotted value has source URL + year,PASS,
+F4_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_07,retrieved value found verbatim in saved raw source files,PASS,
+F4_08,one unit across plotted countries,PASS,"per 100,000 live births"
+F4_08,"11 countries present, no duplicates",PASS,
+F4_08,every plotted value has source URL + year,PASS,
+F4_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_08,retrieved value found verbatim in saved raw source files,PASS,
+F4_09,one unit across plotted countries,PASS,"per 1,000 live births"
+F4_09,"11 countries present, no duplicates",PASS,
+F4_09,every plotted value has source URL + year,PASS,
+F4_09,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_09,retrieved value found verbatim in saved raw source files,PASS,
+F4_10,one unit across plotted countries,PASS,"per 1,000 live births"
+F4_10,"11 countries present, no duplicates",PASS,
+F4_10,every plotted value has source URL + year,PASS,
+F4_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_10,retrieved value found verbatim in saved raw source files,PASS,
+F4_11,one unit across plotted countries,PASS,
+F4_11,"11 countries present, no duplicates",PASS,
+F4_11,every plotted value has source URL + year,PASS,
+F4_11,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_11,retrieved value found verbatim in saved raw source files,PASS,
+F4_12,one unit across plotted countries,PASS,% of live births
+F4_12,"11 countries present, no duplicates",PASS,
+F4_12,every plotted value has source URL + year,PASS,
+F4_12,magnitude within 1/3x–3x of 2018 value,PASS,
+F4_12,retrieved value found verbatim in saved raw source files,PASS,
+F5_01,one unit across plotted countries,PASS,"per 1,000 population"
+F5_01,"11 countries present, no duplicates",PASS,
+F5_01,every plotted value has source URL + year,PASS,
+F5_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_01,retrieved value found verbatim in saved raw source files,PASS,
+F5_02,one unit across plotted countries,PASS,% of practising physicians
+F5_02,"11 countries present, no duplicates",PASS,
+F5_02,every plotted value has source URL + year,PASS,
+F5_02,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_02,retrieved value found verbatim in saved raw source files,PASS,
+F5_03,one unit across plotted countries,PASS,% of practising physicians
+F5_03,"11 countries present, no duplicates",PASS,
+F5_03,every plotted value has source URL + year,PASS,
+F5_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_03,retrieved value found verbatim in saved raw source files,PASS,
+F5_04,one unit across plotted countries,PASS,"per 1,000 population"
+F5_04,"11 countries present, no duplicates",PASS,
+F5_04,every plotted value has source URL + year,PASS,
+F5_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_04,retrieved value found verbatim in saved raw source files,PASS,
+F5_05,one unit across plotted countries,REVIEW,"USD nominal, obs year; USD PPP current prices, obs year"
+F5_05,"11 countries present, no duplicates",PASS,
+F5_05,every plotted value has source URL + year,PASS,
+F5_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_05,retrieved value found verbatim in saved raw source files,PASS,
+F5_06,one unit across plotted countries,REVIEW,"USD nominal, obs year; USD PPP current prices, obs year"
+F5_06,"11 countries present, no duplicates",PASS,
+F5_06,every plotted value has source URL + year,PASS,
+F5_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_06,retrieved value found verbatim in saved raw source files,PASS,
+F5_07,one unit across plotted countries,PASS,"USD PPP current prices, obs year"
+F5_07,"11 countries present, no duplicates",PASS,
+F5_07,every plotted value has source URL + year,PASS,
+F5_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_07,retrieved value found verbatim in saved raw source files,PASS,
+F5_08,one unit across plotted countries,PASS,"USD PPP, constant prices, 2025 reference year (=2025 USD PPPs)"
+F5_08,"11 countries present, no duplicates",PASS,
+F5_08,every plotted value has source URL + year,PASS,
+F5_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_08,retrieved value found verbatim in saved raw source files,PASS,
+F5_09,one unit across plotted countries,PASS,ratio
+F5_09,"11 countries present, no duplicates",PASS,
+F5_09,every plotted value has source URL + year,PASS,
+F5_09,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_09,retrieved value found verbatim in saved raw source files,PASS,
+F5_10,one unit across plotted countries,PASS,ratio
+F5_10,"11 countries present, no duplicates",PASS,
+F5_10,every plotted value has source URL + year,PASS,
+F5_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_10,retrieved value found verbatim in saved raw source files,PASS,
+F5_11,one unit across plotted countries,PASS,ratio
+F5_11,"11 countries present, no duplicates",PASS,
+F5_11,every plotted value has source URL + year,PASS,
+F5_11,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_11,retrieved value found verbatim in saved raw source files,PASS,
+F5_12,one unit across plotted countries,PASS,"per 1,000,000 population"
+F5_12,"11 countries present, no duplicates",PASS,
+F5_12,every plotted value has source URL + year,PASS,
+F5_12,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_12,retrieved value found verbatim in saved raw source files,PASS,
+F5_13,one unit across plotted countries,PASS,"per 1,000,000 population"
+F5_13,"11 countries present, no duplicates",PASS,
+F5_13,every plotted value has source URL + year,PASS,
+F5_13,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_13,retrieved value found verbatim in saved raw source files,PASS,
+F5_14,one unit across plotted countries,PASS,"per 1,000,000 population"
+F5_14,"11 countries present, no duplicates",PASS,
+F5_14,every plotted value has source URL + year,PASS,
+F5_14,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_14,retrieved value found verbatim in saved raw source files,PASS,
+F5_15,one unit across plotted countries,PASS,"per 1,000 population"
+F5_15,"11 countries present, no duplicates",PASS,
+F5_15,every plotted value has source URL + year,PASS,
+F5_15,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_15,retrieved value found verbatim in saved raw source files,PASS,
+F5_16,one unit across plotted countries,PASS,"per 1,000 population 65+"
+F5_16,"11 countries present, no duplicates",PASS,
+F5_16,every plotted value has source URL + year,PASS,
+F5_16,magnitude within 1/3x–3x of 2018 value,PASS,
+F5_16,retrieved value found verbatim in saved raw source files,PASS,
+F7_01,one unit across plotted countries,PASS,"per 100,000 population"
+F7_01,"11 countries present, no duplicates",PASS,
+F7_01,every plotted value has source URL + year,PASS,
+F7_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_01,retrieved value found verbatim in saved raw source files,PASS,
+F7_02,one unit across plotted countries,PASS,"per 100,000 population"
+F7_02,"11 countries present, no duplicates",PASS,
+F7_02,every plotted value has source URL + year,PASS,
+F7_02,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_02,retrieved value found verbatim in saved raw source files,PASS,
+F7_03,one unit across plotted countries,PASS,"per 100,000 population"
+F7_03,"11 countries present, no duplicates",PASS,
+F7_03,every plotted value has source URL + year,PASS,
+F7_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_03,retrieved value found verbatim in saved raw source files,PASS,
+F7_04,one unit across plotted countries,PASS,"per 100,000 population"
+F7_04,"11 countries present, no duplicates",PASS,
+F7_04,every plotted value has source URL + year,PASS,
+F7_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_04,retrieved value found verbatim in saved raw source files,PASS,
+F7_05,one unit across plotted countries,PASS,"per 1,000 population"
+F7_05,"11 countries present, no duplicates",PASS,
+F7_05,every plotted value has source URL + year,PASS,
+F7_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_05,retrieved value found verbatim in saved raw source files,PASS,
+F7_06,one unit across plotted countries,PASS,"per 1,000 population"
+F7_06,"11 countries present, no duplicates",PASS,
+F7_06,every plotted value has source URL + year,PASS,
+F7_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_06,retrieved value found verbatim in saved raw source files,PASS,
+F7_07,one unit across plotted countries,PASS,"per 100,000 population"
+F7_07,"11 countries present, no duplicates",PASS,
+F7_07,every plotted value has source URL + year,PASS,
+F7_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_07,retrieved value found verbatim in saved raw source files,PASS,
+F7_08,one unit across plotted countries,PASS,"per 100,000 population"
+F7_08,"11 countries present, no duplicates",PASS,
+F7_08,every plotted value has source URL + year,PASS,
+F7_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_08,retrieved value found verbatim in saved raw source files,PASS,
+F7_09,one unit across plotted countries,PASS,"per 100,000 females"
+F7_09,"11 countries present, no duplicates",PASS,
+F7_09,every plotted value has source URL + year,PASS,
+F7_09,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_09,retrieved value found verbatim in saved raw source files,PASS,
+F7_10,one unit across plotted countries,PASS,per 100 live births
+F7_10,"11 countries present, no duplicates",PASS,
+F7_10,every plotted value has source URL + year,PASS,
+F7_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_10,retrieved value found verbatim in saved raw source files,PASS,
+F7_11,one unit across plotted countries,PASS,"per 100,000 population"
+F7_11,"11 countries present, no duplicates",PASS,
+F7_11,every plotted value has source URL + year,PASS,
+F7_11,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_11,retrieved value found verbatim in saved raw source files,PASS,
+F7_12,one unit across plotted countries,PASS,"per 100,000 population"
+F7_12,"11 countries present, no duplicates",PASS,
+F7_12,every plotted value has source URL + year,PASS,
+F7_12,magnitude within 1/3x–3x of 2018 value,REVIEW,DNK 73->23.0
+F7_12,retrieved value found verbatim in saved raw source files,PASS,
+F7_13,one unit across plotted countries,PASS,"per 100,000 population"
+F7_13,"11 countries present, no duplicates",PASS,
+F7_13,every plotted value has source URL + year,PASS,
+F7_13,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_13,retrieved value found verbatim in saved raw source files,PASS,
+F7_14,one unit across plotted countries,PASS,days
+F7_14,"11 countries present, no duplicates",PASS,
+F7_14,every plotted value has source URL + year,PASS,
+F7_14,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_14,retrieved value found verbatim in saved raw source files,PASS,
+F7_15,one unit across plotted countries,PASS,days
+F7_15,"11 countries present, no duplicates",PASS,
+F7_15,every plotted value has source URL + year,PASS,
+F7_15,magnitude within 1/3x–3x of 2018 value,PASS,
+F7_15,retrieved value found verbatim in saved raw source files,PASS,
+F9_01,one unit across plotted countries,PASS,
+F9_01,"11 countries present, no duplicates",PASS,
+F9_01,every plotted value has source URL + year,PASS,
+F9_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_01,retrieved value found verbatim in saved raw source files,PASS,
+F9_02,one unit across plotted countries,PASS,USD PPP per capita
+F9_02,"11 countries present, no duplicates",PASS,
+F9_02,every plotted value has source URL + year,PASS,
+F9_02,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_02,retrieved value found verbatim in saved raw source files,PASS,
+F9_03,one unit across plotted countries,PASS,
+F9_03,"11 countries present, no duplicates",PASS,
+F9_03,every plotted value has source URL + year,PASS,
+F9_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_03,retrieved value found verbatim in saved raw source files,PASS,
+F9_04,one unit across plotted countries,PASS,
+F9_04,"11 countries present, no duplicates",PASS,
+F9_04,every plotted value has source URL + year,PASS,
+F9_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_04,retrieved value found verbatim in saved raw source files,PASS,
+F9_05,one unit across plotted countries,PASS,
+F9_05,"11 countries present, no duplicates",PASS,
+F9_05,every plotted value has source URL + year,PASS,
+F9_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_05,retrieved value found verbatim in saved raw source files,PASS,
+F9_06,one unit across plotted countries,PASS,
+F9_06,"11 countries present, no duplicates",PASS,
+F9_06,every plotted value has source URL + year,PASS,
+F9_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_06,retrieved value found verbatim in saved raw source files,PASS,
+F9_07,one unit across plotted countries,PASS,
+F9_07,"11 countries present, no duplicates",PASS,
+F9_07,every plotted value has source URL + year,PASS,
+F9_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_07,retrieved value found verbatim in saved raw source files,PASS,
+F9_08,one unit across plotted countries,PASS,% of retail pharma spending
+F9_08,"11 countries present, no duplicates",PASS,
+F9_08,every plotted value has source URL + year,PASS,
+F9_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_08,retrieved value found verbatim in saved raw source files,PASS,
+F9_09,one unit across plotted countries,PASS,% of retail pharma spending
+F9_09,"11 countries present, no duplicates",PASS,
+F9_09,every plotted value has source URL + year,PASS,
+F9_09,magnitude within 1/3x–3x of 2018 value,REVIEW,DEU 7->0.1; FRA 1->5.6; NLD 2->0.6
+F9_09,retrieved value found verbatim in saved raw source files,PASS,
+F9_10,one unit across plotted countries,PASS,% of retail pharma spending
+F9_10,"11 countries present, no duplicates",PASS,
+F9_10,every plotted value has source URL + year,PASS,
+F9_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_10,retrieved value found verbatim in saved raw source files,PASS,
+F9_11,one unit across plotted countries,PASS,% of pharmaceutical market volume
+F9_11,"11 countries present, no duplicates",PASS,
+F9_11,every plotted value has source URL + year,PASS,
+F9_11,magnitude within 1/3x–3x of 2018 value,REVIEW,NLD 17->78.7
+F9_11,retrieved value found verbatim in saved raw source files,PASS,
+F9_12,one unit across plotted countries,PASS,% of pharmaceutical market value
+F9_12,"11 countries present, no duplicates",PASS,
+F9_12,every plotted value has source URL + year,PASS,
+F9_12,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_12,retrieved value found verbatim in saved raw source files,PASS,
+F9_13,one unit across plotted countries,PASS,"DDD per 1,000 population per day"
+F9_13,"11 countries present, no duplicates",PASS,
+F9_13,every plotted value has source URL + year,PASS,
+F9_13,magnitude within 1/3x–3x of 2018 value,PASS,
+F9_13,retrieved value found verbatim in saved raw source files,PASS,
+F10_01,one unit across plotted countries,PASS,% of adults
+F10_01,"11 countries present, no duplicates",PASS,
+F10_01,every plotted value has source URL + year,PASS,
+F10_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_01,retrieved value found verbatim in saved raw source files,REVIEW,"SWE,CHE"
+F10_02,one unit across plotted countries,PASS,% of adults
+F10_02,"11 countries present, no duplicates",PASS,
+F10_02,every plotted value has source URL + year,PASS,
+F10_02,magnitude within 1/3x–3x of 2018 value,REVIEW,DEU 3->23.4; FRA 4->45.5
+F10_02,retrieved value found verbatim in saved raw source files,PASS,
+F10_03,one unit across plotted countries,PASS,% of patients
+F10_03,"11 countries present, no duplicates",PASS,
+F10_03,every plotted value has source URL + year,PASS,
+F10_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_03,retrieved value found verbatim in saved raw source files,PASS,
+F10_04,one unit across plotted countries,PASS,
+F10_04,"11 countries present, no duplicates",PASS,
+F10_04,every plotted value has source URL + year,PASS,
+F10_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_04,retrieved value found verbatim in saved raw source files,PASS,
+F10_05,one unit across plotted countries,PASS,
+F10_05,"11 countries present, no duplicates",PASS,
+F10_05,every plotted value has source URL + year,PASS,
+F10_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_05,retrieved value found verbatim in saved raw source files,PASS,
+F10_06,one unit across plotted countries,PASS,
+F10_06,"11 countries present, no duplicates",PASS,
+F10_06,every plotted value has source URL + year,PASS,
+F10_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_06,retrieved value found verbatim in saved raw source files,PASS,
+F10_07,one unit across plotted countries,PASS,% of children
+F10_07,"11 countries present, no duplicates",PASS,
+F10_07,every plotted value has source URL + year,PASS,
+F10_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_07,retrieved value found verbatim in saved raw source files,PASS,
+F10_08,one unit across plotted countries,PASS,% of women 50-69
+F10_08,"11 countries present, no duplicates",PASS,
+F10_08,every plotted value has source URL + year,PASS,
+F10_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_08,retrieved value found verbatim in saved raw source files,PASS,
+F10_09,one unit across plotted countries,PASS,per 100 admissions
+F10_09,"11 countries present, no duplicates",PASS,
+F10_09,every plotted value has source URL + year,PASS,
+F10_09,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_09,retrieved value found verbatim in saved raw source files,PASS,
+F10_10,one unit across plotted countries,PASS,per 100 admissions
+F10_10,"11 countries present, no duplicates",PASS,
+F10_10,every plotted value has source URL + year,PASS,
+F10_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_10,retrieved value found verbatim in saved raw source files,PASS,
+F10_11,one unit across plotted countries,PASS,
+F10_11,"11 countries present, no duplicates",PASS,
+F10_11,every plotted value has source URL + year,PASS,
+F10_11,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_11,retrieved value found verbatim in saved raw source files,PASS,
+F10_12,one unit across plotted countries,PASS,per 100 vaginal deliveries
+F10_12,"11 countries present, no duplicates",PASS,
+F10_12,every plotted value has source URL + year,PASS,
+F10_12,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_12,retrieved value found verbatim in saved raw source files,PASS,
+F10_13,one unit across plotted countries,PASS,"per 100,000 population 15+"
+F10_13,"11 countries present, no duplicates",PASS,
+F10_13,every plotted value has source URL + year,PASS,
+F10_13,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_13,retrieved value found verbatim in saved raw source files,PASS,
+F10_14,one unit across plotted countries,PASS,admissions per 100 people with diabetes
+F10_14,"11 countries present, no duplicates",PASS,
+F10_14,every plotted value has source URL + year,PASS,
+F10_14,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_14,retrieved value found verbatim in saved raw source files,REVIEW,"USA,GBR,DEU,SWE,FRA,NLD,CHE,DNK,CAN"
+F10_15,one unit across plotted countries,PASS,"per 100,000 population 15+"
+F10_15,"11 countries present, no duplicates",PASS,
+F10_15,every plotted value has source URL + year,PASS,
+F10_15,magnitude within 1/3x–3x of 2018 value,REVIEW,USA 89.7->22.4
+F10_15,retrieved value found verbatim in saved raw source files,PASS,
+F10_16,one unit across plotted countries,PASS,
+F10_16,"11 countries present, no duplicates",PASS,
+F10_16,every plotted value has source URL + year,PASS,
+F10_16,magnitude within 1/3x–3x of 2018 value,PASS,
+F10_16,retrieved value found verbatim in saved raw source files,PASS,
+F11_01,one unit across plotted countries,PASS,index x100
+F11_01,"11 countries present, no duplicates",PASS,
+F11_01,every plotted value has source URL + year,PASS,
+F11_01,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_01,retrieved value found verbatim in saved raw source files,PASS,
+F11_02,one unit across plotted countries,PASS,% of current health expenditure
+F11_02,"11 countries present, no duplicates",PASS,
+F11_02,every plotted value has source URL + year,PASS,
+F11_02,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_02,retrieved value found verbatim in saved raw source files,PASS,
+F11_03,one unit across plotted countries,PASS,% of household final consumption
+F11_03,"11 countries present, no duplicates",PASS,
+F11_03,every plotted value has source URL + year,PASS,
+F11_03,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_03,retrieved value found verbatim in saved raw source files,PASS,
+F11_04,one unit across plotted countries,PASS,% of adults
+F11_04,"11 countries present, no duplicates",PASS,
+F11_04,every plotted value has source URL + year,PASS,
+F11_04,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_04,retrieved value found verbatim in saved raw source files,PASS,
+F11_05,one unit across plotted countries,PASS,% of adults
+F11_05,"11 countries present, no duplicates",PASS,
+F11_05,every plotted value has source URL + year,PASS,
+F11_05,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_05,retrieved value found verbatim in saved raw source files,PASS,
+F11_06,one unit across plotted countries,PASS,% of adults
+F11_06,"11 countries present, no duplicates",PASS,
+F11_06,every plotted value has source URL + year,PASS,
+F11_06,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_06,retrieved value found verbatim in saved raw source files,PASS,
+F11_07,one unit across plotted countries,PASS,% of population
+F11_07,"11 countries present, no duplicates",PASS,
+F11_07,every plotted value has source URL + year,PASS,
+F11_07,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_07,retrieved value found verbatim in saved raw source files,PASS,
+F11_08,one unit across plotted countries,PASS,persons per sq km
+F11_08,"11 countries present, no duplicates",PASS,
+F11_08,every plotted value has source URL + year,PASS,
+F11_08,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_08,retrieved value found verbatim in saved raw source files,PASS,
+F11_09,one unit across plotted countries,PASS,"per 1,000 population"
+F11_09,"11 countries present, no duplicates",PASS,
+F11_09,every plotted value has source URL + year,PASS,
+F11_09,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_09,retrieved value found verbatim in saved raw source files,PASS,
+F11_10,one unit across plotted countries,PASS,"per 1,000 population"
+F11_10,"11 countries present, no duplicates",PASS,
+F11_10,every plotted value has source URL + year,PASS,
+F11_10,magnitude within 1/3x–3x of 2018 value,PASS,
+F11_10,retrieved value found verbatim in saved raw source files,PASS,

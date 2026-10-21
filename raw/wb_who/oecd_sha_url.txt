@@ -1,0 +1,1 @@
+https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_SHA@DF_SHA,/USA+GBR+DEU+SWE+FRA+NLD+CHE+DNK+CAN+JPN+AUS.A.EXP_HEALTH.PT_B1GQ+USD_PPP_PS._T+HF1._Z._T._T._T._Z._Z.?startPeriod=2020&format=csvfilewithlabels

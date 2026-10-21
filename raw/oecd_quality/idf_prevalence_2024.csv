@@ -1,0 +1,12 @@
+country,slug,prev_2000,prev_2011,prev_2024,prev_2050,url
+AUS,australia,-,6.6,7.4,8.7,https://diabetesatlas.org/data-by-location/country/australia/
+CAN,canada,-,8.4,7.7,9.0,https://diabetesatlas.org/data-by-location/country/canada/
+DNK,denmark,-,5.6,6.4,7.4,https://diabetesatlas.org/data-by-location/country/denmark/
+FRA,france,-,5.4,6.5,7.8,https://diabetesatlas.org/data-by-location/country/france/
+DEU,germany,-,5.3,7.8,9.1,https://diabetesatlas.org/data-by-location/country/germany/
+JPN,japan,-,7.7,8.1,9.6,https://diabetesatlas.org/data-by-location/country/japan/
+NLD,netherlands,-,5.3,5.0,5.9,https://diabetesatlas.org/data-by-location/country/netherlands/
+SWE,sweden,-,4.2,5.8,6.8,https://diabetesatlas.org/data-by-location/country/sweden/
+CHE,switzerland,-,5.9,5.3,6.0,https://diabetesatlas.org/data-by-location/country/switzerland/
+GBR,united-kingdom,-,5.2,7.4,8.5,https://diabetesatlas.org/data-by-location/country/united-kingdom/
+USA,united-states-of-america,-,9.4,13.7,15.2,https://diabetesatlas.org/data-by-location/country/united-states-of-america/

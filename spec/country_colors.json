@@ -1,0 +1,106 @@
+{
+  "_source": "Modal pixel colour of each country's cell in Figure 1 row 1 and row 2 (identical in both), paper.pdf page 3 rendered with pdftoppm -r 150; sampled with PIL Counter.most_common over the cell interior.",
+  "colors": {
+    "USA": {
+      "label": "US",
+      "rgb": [
+        250,
+        247,
+        128
+      ],
+      "hex": "#FAF780"
+    },
+    "GBR": {
+      "label": "UK",
+      "rgb": [
+        211,
+        210,
+        210
+      ],
+      "hex": "#D3D2D2"
+    },
+    "DEU": {
+      "label": "Germany",
+      "rgb": [
+        190,
+        214,
+        239
+      ],
+      "hex": "#BED6EF"
+    },
+    "SWE": {
+      "label": "Sweden",
+      "rgb": [
+        238,
+        180,
+        222
+      ],
+      "hex": "#EEB4DE"
+    },
+    "FRA": {
+      "label": "France",
+      "rgb": [
+        214,
+        234,
+        153
+      ],
+      "hex": "#D6EA99"
+    },
+    "NLD": {
+      "label": "NLD",
+      "rgb": [
+        216,
+        168,
+        217
+      ],
+      "hex": "#D8A8D9"
+    },
+    "CHE": {
+      "label": "CHE",
+      "rgb": [
+        189,
+        222,
+        225
+      ],
+      "hex": "#BDDEE1"
+    },
+    "DNK": {
+      "label": "Denmark",
+      "rgb": [
+        220,
+        178,
+        161
+      ],
+      "hex": "#DCB2A1"
+    },
+    "CAN": {
+      "label": "Canada",
+      "rgb": [
+        243,
+        204,
+        165
+      ],
+      "hex": "#F3CCA5"
+    },
+    "JPN": {
+      "label": "Japan",
+      "rgb": [
+        196,
+        233,
+        184
+      ],
+      "hex": "#C4E9B8"
+    },
+    "AUS": {
+      "label": "Australia",
+      "rgb": [
+        244,
+        161,
+        169
+      ],
+      "hex": "#F4A1A9"
+    }
+  },
+  "text_ink": "#231F20",
+  "jama_red": "#D91433"
+}
